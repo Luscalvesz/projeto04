@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topo{
+    width: 100%;
+    border-bottom: 2px solid #ccc; 
+}
+
+.topo-conteudo{
+    width: 950px;
+    height: 150px;
+    display: flex;
+    margin: 0 auto;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.menu li{
+    padding: 0 70px;
+
+}
+
+.menu a {
+    padding: 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#747474;
+}
+
+.main-box{
+    display: flex;
+    padding: 50px 0 20px;
+    
+    
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.banner{
+    width: 950px;
+    display: block;
+    margin: 0 auto;
+}
+.banner img{
+    width: 100%;
+}
+.main{
+    width: 950px;
+    display: block;
+    margin: 0 auto;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: grey;  
+}
+.texto h1{
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.texto p{
+    line-height: 25px;
+    text-align: center;
+}
+.filmes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filme-box{
+    width: 49.5%;
+}
+
+.filme-imagem{
+    height: 422px;
+    overflow: hidden;
+}
+
+.filme-imagem img{
+    width: 100%;
+}
+
+.filme-texto{
+    text-align: center;
+    text-transform: uppercase;
+    color: grey;
+}
+.rodape{
+    background: #d7cbeb;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape p{
+    color: grey;
+    font-size: 15px;
+    
+}
